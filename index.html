@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+<body>
+    <div class="banner">
+
+        <form class="search" id = "search">
+            <input type="text" class="enter-city" id = "enter-city" placeholder = "Enter a city or zipcode">
+            <button class="submit" type = "submit" id = "submit"><i class="fas fa-search"></i></button>
+            <div class="error-text" id = "error-text"></div>
+        </form>
+    </div>
+
+    <div class="container">
+        
+        <div class="location" id = "location">
+
+        </div>
+
+        <div class="day-time" id = "day-time">
+           
+        </div>
+        
+        <div class="image" id = "image">
+            
+        </div>
+
+        <div class="temperature" id = "temperature">
+                <div class="max-temp"></div>
+                <div class="min-temp"></div>
+        </div>
+
+        <div class="description" id = "description">
+
+        </div>
+
+        <div class="additional-info" id = "additional-info">
+      
+        </div>
+        
+
+        <div class="weekly-weather" id = "weekly-weather">
+
+        </div>
+    </div>
+
+
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+</body>
+</html>
